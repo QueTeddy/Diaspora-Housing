@@ -27,7 +27,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '0^-p-=6i*dastj59n^lsps!cl5dp-u0l(4k9-n6mm=2dmirf2f'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
     '0.0.0.0',
@@ -40,6 +40,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 EMAIL_HOST_USER = 'ebhamenteddyjr@gmail.com'
 EMAIL_HOST_PASSWORD = 'sweetmother'
 
+
+SECRET_KEY = '0^-p-=6i*dastj59n^lsps!cl5dp-u0l(4k9-n6mm=2dmirf2f'
 # Application definition
 
 INSTALLED_APPS = [
@@ -98,7 +100,7 @@ WSGI_APPLICATION = 'realEstate.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME':'diaspora',
+        'NAME':'diasporadb',
         'USER': 'teddy',
         'PASSWORD':'admin',
         'HOST': 'localhost'
