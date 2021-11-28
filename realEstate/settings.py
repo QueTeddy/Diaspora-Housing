@@ -33,12 +33,12 @@ ALLOWED_HOSTS = [
     '0.0.0.0',
     'localhost', 
     '127.0.0.1',
-    'diaspora-housing.herokuapp.com'
+    'the-app.herokuapp.com'
 ]
 
 SECRET_KEY = os.environ.get('SECRET_KEY')
-EMAIL_HOST_USER = 'ebhamenteddyjr@gmail.com'
-EMAIL_HOST_PASSWORD = 'sweetmother'
+EMAIL_HOST_USER = 'youremail@gmail.co'
+EMAIL_HOST_PASSWORD = 'password'
 
 
 SECRET_KEY = '0^-p-=6i*dastj59n^lsps!cl5dp-u0l(4k9-n6mm=2dmirf2f'
@@ -164,6 +164,6 @@ MESSAGE_TAGS = {
 # Email config
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'ebhameteddyjr@gmail.com'
-EMAIL_HOST_PASSWORD = 'sweetmother'
+EMAIL_HOST_USER = 'youremail@gmail.com'
+EMAIL_HOST_PASSWORD = 'password'
 EMAIL_USE_TLS = True 
